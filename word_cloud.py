@@ -66,12 +66,12 @@ def calculate_frequencies(file_contents):
     cloud.generate_from_frequencies(d)
     return cloud.to_array()
 #This is the string you have to provide to generate the word cloud.
-file_contents = "On my pillow Can't get me tired Sharing my fragile truth That I still hope the door is open 'Cause the window Opened one time with you and me 
-                 Now my forever's falling down Wondering if you'd want me now How could I know One day I'd wake up feeling more But I had already reached the shore
-                 Guess we were ships in the night Night, night We were ships in the night, night, night I'm wondering Are you my best friend 
-                 Feel's like a river's rushing through my mind I wanna ask you If this is all just in my head My heart is pounding tonight I wonder If you
-                 Are too good to be true And would it be alright if I Pulled you closer How could I know One day I'd wake up feeling more 
-                 But I had already reached the shore Guess we were ships in the night Night, night We were ships in the night Night, night"
+file_contents = "On my pillow Can't get me tired Sharing my fragile truth That I still hope the door is open 'Cause the window Opened one time with you and me \
+                 Now my forever's falling down Wondering if you'd want me now How could I know One day I'd wake up feeling more But I had already reached the shore \
+                 Guess we were ships in the night Night, night We were ships in the night, night, night I'm wondering Are you my best friend  \
+                 Feel's like a river's rushing through my mind I wanna ask you If this is all just in my head My heart is pounding tonight I wonder If you \
+                 Are too good to be true And would it be alright if I Pulled you closer How could I know One day I'd wake up feeling more \
+                 But I had already reached the shore Guess we were ships in the night Night, night We were ships in the night Night, night" 
  
 myimage = calculate_frequencies(file_contents)
 plt.imshow(myimage, interpolation = 'nearest')
