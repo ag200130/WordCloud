@@ -5,7 +5,7 @@ This code generates a word cloud using python.
 
 
 
-This is the output produced ---------
+This is the output produced 
 
 
 
